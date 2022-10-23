@@ -23,6 +23,10 @@ body{
     list-style: none;
     
 }
+/* reset styles */
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+}
 
 /* HEADER */
 .logo{
@@ -133,6 +137,10 @@ color:var(--main-color);
 
 
 /* WORK */
+.main-list{
+    display: flex;
+    flex-direction: row-reverse;
+}
 .team{
 background:var(--section-color)
 }
@@ -148,9 +156,13 @@ border-radius: 0px 0px 4px 4px; */
 font-weight: 700;
 font-size: 36px;
 line-height:calc(42 / 36);
-/* text-align: center; */
+text-align: center;
 letter-spacing: 0.03em;
 color:var(--name-color);
+}
+.list{
+display: flex;
+
 }
 .team-name{
 font-weight: 500;
