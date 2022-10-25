@@ -35,7 +35,7 @@ h1,h2,h3,h4,h5,h6,p{
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
-    outline: 2px solid tomato;
+    /* outline: 2px solid tomato; */
     /* background-color: tomato; */
 }
 img{display: block;}
@@ -294,6 +294,13 @@ color:var(--text-color)
 font-style: normal;
 
 }
+.adress-mail{
+    margin-bottom: 9px;
+    margin-top: 9px;
+}
+.adress-tel{
+    margin-bottom: 60px;
+}
 
 .footer-contact{
 font-weight: 400;
@@ -308,37 +315,48 @@ color: rgba(255, 255, 255, 0.6);
 
 
 /* Button */
-
-.flex-container{
-display: flex;
-    flex-wrap: wrap;
-
-}
-.flex-element{
-    width: 370px;
-    background-color: antiquewhite;  
-    margin-right: 30px; 
-    margin-bottom: 30px;
-}
-.flex-element:nth-child(3n)
-{
-    margin-right: 0;
-}
-.flex-element:nth-last-child(-n + 3) {
-    margin-bottom: 0;
-}
 .portfolio-photo{
-    display: flexbox;
+    display: flex;
     flex-wrap: wrap;
+    width: 370;
+    
+    gap: var();
+}
+
+.portfolio{
+    border: none;
+    border: 1px solid #EEEEEE;
     
 }
+
+.portfolio{
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+.portfolio:nth-child(3n){
+    margin-right: 0;
+}
+.portfolio:nth-last-child(-n + 3){
+    margin-bottom: 0;
+}
+
+
 
 .button-list{
     display: flex;
     margin-right: 8px;
+    justify-content: center;
+    padding-top: 94px;
+    margin-bottom: 50px;
+}
+.list-button{
+    margin-right: 8px;
+    display: inline-block;
+border-radius: 4px;
 }
 
  .main-button{
+  
 font-weight: 500;
 font-size: 16px;
 line-height:calc(26 / 16);
@@ -349,6 +367,9 @@ background:var(--section-color)
 border-radius: 4px;
 cursor:pointer;
 font-family: 'Roboto';
+text-align: center;
+letter-spacing: 0.03em;
+padding: 6px 22px;
 }
 .main-button:hover
 {
@@ -358,16 +379,17 @@ color:var(--text-color)
 .main-button:focus{
     background:var(--accent-color)
 }
-.portfolio-photo{
-    display: flex;
-    padding-bottom: 94px;
-}
+
 .portfolio-list{
 font-weight: 700;
 font-size: 18px;
 line-height:calc(36 / 18);
 letter-spacing: 0.06em;
 color:var(--name-color);
+margin-top: 20px;
+margin-bottom: 4px;
+margin-left: 24px;
+margin-right: 24px;
 }
 .text{
 font-weight: 400;
@@ -375,4 +397,7 @@ font-size: 16px;
 line-height:calc(30 / 16);
 letter-spacing: 0.03em;
 color:var(--main-color);
+margin-bottom: 20px;
+margin-left: 24px;
+margin-right: 24px;
 }
