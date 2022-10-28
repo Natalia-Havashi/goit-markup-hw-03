@@ -129,7 +129,7 @@ font-size: 44px;
 line-height:calc(60 / 44);
 letter-spacing: 0.06em;
 text-transform: uppercase;
-color:var(--text-color)
+color:var(--text-color);
 margin: 0 auto;
 
 }
@@ -326,7 +326,7 @@ border-bottom: 1px solid #ECECEC;;
 }
 .portfolio{
     border: none;
-    border: 1px solid #EEEEEE;
+   
     
 }
 .portfolio{
@@ -375,6 +375,9 @@ color:var(--text-color)
     background:var(--accent-color)
 }
 .portfolio-card{
+    border-bottom: 1px solid #EEEEEE;
+    border-right: 1px solid #EEEEEE;
+    border-left: 1px solid #EEEEEE;
     padding-left: 24px;
     padding-right: 24px;
     padding-top: 20px;
