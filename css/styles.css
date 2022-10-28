@@ -176,6 +176,7 @@ line-height:calc(16 / 14);
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color:var(--name-color);
+margin-bottom: 10px;
 }
 .menu-paragraph{
 font-weight: 400;
